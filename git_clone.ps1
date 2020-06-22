@@ -1,13 +1,13 @@
+#region Plataforma_services  
+
 git clone --branch reprocess https://github.com/onsbr/plataforma-installer.git .\plataforma_services\plataforma-installer
-
 git clone --branch master https://github.com/onsplatform/platform_deploy .\plataforma_services\platform_deploy
-
 git clone --branch develop https://onsvsts@dev.azure.com/onsvsts/sager/_git/sager.domain.fabrica .\plataforma_services\sager.domain.fabrica
 
+#endregion 
 
 
-#SAGER 
-
+#region sager_services 
 
 git clone --branch develop https://onsvsts@dev.azure.com/onsvsts/SAGER/_git/sager.calculo.util.fabrica ./sager_services/sager.calculo.util.fabrica
 git clone --branch release/1.0.0 https://onsvsts@dev.azure.com/onsvsts/SAGER/_git/sager.calculo.uge.fabrica ./sager_services/sager.calculo.uge.fabrica
@@ -87,3 +87,5 @@ foreach($repo in $repos) {
 	git clone --branch $branch/2.0.0 $repo_url ./sager_services/parametros/$repo"_2.0.0"
 	git clone --branch $branch/3.0.0 $repo_url ./sager_services/parametros/$repo"_3.0.0"
 }
+
+#endregion 
