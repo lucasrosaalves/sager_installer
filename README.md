@@ -10,6 +10,8 @@
 
 * Habilitar execução de scripts: Acessar como administrador o powershell e executar Set-ExecutionPolicy Unrestricted
 
+* Realizar o download do arquivo dump https://radixengazure-my.sharepoint.com/:u:/g/personal/lucas_alves_radixeng_com_br/EQL8DBVCJkxOh0omFeuhwOYBzToUcj7xN8yC2rP3vd2V5A?e=OBbbWl
+
 * Acessar o diretório database e descompactar o arquivo sagerdumpv8_2.7z
 
 
