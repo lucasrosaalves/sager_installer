@@ -1,0 +1,5 @@
+Instalar git 
+Instalar python na versão 3.7 + 
+Instalar docker
+
+Habilitar execução de scripts: Acessar como administrador o powershell e executar Set-ExecutionPolicy Unrestricted
