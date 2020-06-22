@@ -1,3 +1,5 @@
+Set-Location ..
+
 #region Plataforma_services  
 
 git clone --branch reprocess https://github.com/onsbr/plataforma-installer.git .\plataforma_services\plataforma-installer

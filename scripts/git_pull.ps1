@@ -1,3 +1,5 @@
+Set-Location ..
+
 #region plataforma_services  
 
 Set-Location ./plataforma_services  
